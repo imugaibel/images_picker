@@ -164,6 +164,7 @@ class CropAspectRatio {
         assert(aspectRatioY > 0, 'aspectRatioY must > 0');
 
   static const custom = null;
+  static const wh1x1 = CropAspectRatio(1, 1);
   static const wh2x1 = CropAspectRatio(2, 1);
   static const wh1x2 = CropAspectRatio(1, 2);
   static const wh3x4 = CropAspectRatio(3, 4);
